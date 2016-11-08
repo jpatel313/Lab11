@@ -62,7 +62,9 @@ namespace Lab11
 
     public override string ToString()
     {
-            return "$"+(Name + Address + program+ year+ fee);
+            //return "$"+(Name + Address + program+ year+ fee);
+
+            return base.ToString();
     }
 }
 }

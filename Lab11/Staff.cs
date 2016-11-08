@@ -48,7 +48,9 @@ namespace Lab11
 
         public override string ToString()
         {
-            return "$" + (Name + Address + school + pay);
+           // return "$" + (Name + Address + school + pay);
+
+            return base.ToString();
             ///TODO modify readable output add fields.
         }
 
